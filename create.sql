@@ -1,0 +1,10 @@
+create Database lab_mysql;
+use lab_mysql;
+create table cars (id int, VIN varchar(100) primary key, manufacturer varchar (100), color varchar (100));
+create table salesperson (id int, staff_id int primary key, store varchar (100), name varchar (100));
+create table customers(id int primary key, customer_id int, customer_name varchar (100), staff_id int, foreign key (staff_id) references salesperson(staff_id));
+create table invoices(id int primary key, invoice_numer int, VIN varchar (100), foreign key (VIN) references cars(VIN));
+insert into cars VALUES (0, "3ZZZ", "Toyota", "Blue"), (1, "3YYY", "Nissan", "Black");
+insert into salesperson values (0, 005, "Tonala", "Pedro"), (1, 008, "Insurgentes", "Esteban");
+insert into customers values (0, 002, "Juan", 005), (1, 003, "Miguel", 005);
+insert into invoices values (0, 00051, "3ZZZ"), (1, 00052, "3YYY");
