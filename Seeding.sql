@@ -1,0 +1,16 @@
+ INSERT INTO MAIN (Deporte,Jugadores,Equipos,Liga,Cualidad1,Cualidad2) VALUES ("baseball",9,2,"MLB","hits","home run");
+ INSERT INTO MAIN (Deporte,Jugadores,Equipos,Liga,Cualidad1,Cualidad2) VALUES ("football",11,2,"NFL","touchdown","field goal");
+ INSERT INTO MAIN (Deporte,Jugadores,Equipos,Liga,Cualidad1,Cualidad2) VALUES ("soccer",11,2,"LIGA MX","gol","gol visita");
+ INSERT INTO MAIN (Deporte,Jugadores,Equipos,Liga,Cualidad1,Cualidad2) VALUES ("soccer",11,2,"PREMIERE LEAGUE","gol","gol visita");
+ SHOW TABLES;
+ SELECT * FROM MAIN;
+ INSERT INTO JUGADORES (Jugador,Apellido,Equipo,Liga,Pais) VALUES("Madison","Bumgarner","Cubs","MLB","US");
+ INSERT INTO JUGADORES (Jugador,Apellido,Equipo,Liga,Pais) VALUES("Aaron","Jones","Packers","NFL","US");
+ INSERT INTO JUGADORES (Jugador,Apellido,Equipo,Liga,Pais) VALUES("Alan","Pulido","Chivas","LIGA MX","MX");
+  INSERT INTO JUGADORES (Jugador,Apellido,Equipo,Liga,Pais) VALUES("Mohamed","Salah","Liverpool","PREMIERE LEAGUE","UK");
+ SELECT * FROM JUGADORES;
+ INSERT INTO CUALIDADES (Deporte,Duracion_Por_Tiempo,Duracion_Por_Juego,Tiempo_Extra) VALUES("baseball",False,True,True);
+ INSERT INTO CUALIDADES (Deporte,Duracion_Por_Tiempo,Duracion_Por_Juego,Tiempo_Extra) VALUES("football",True,False,True);
+ INSERT INTO CUALIDADES (Deporte,Duracion_Por_Tiempo,Duracion_Por_Juego,Tiempo_Extra) VALUES("soccer",True,False,True);
+ INSERT INTO CUALIDADES (Deporte,Duracion_Por_Tiempo,Duracion_Por_Juego,Tiempo_Extra) VALUES("soccer",True,False,True);
+ SELECT * FROM CUALIDADES;
