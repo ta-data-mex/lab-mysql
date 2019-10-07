@@ -1,0 +1,1 @@
+INSERT INTO lab_mysql.Cars ("VIN","manufacturer","model","year","color") values("")
