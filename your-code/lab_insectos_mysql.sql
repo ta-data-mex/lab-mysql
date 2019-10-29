@@ -1,3 +1,4 @@
+--No lo habia subido
 drop database lab_mysql;
 create database lab_mysql;
 use lab_mysql;

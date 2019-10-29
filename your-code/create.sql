@@ -1,3 +1,4 @@
+--no lo habia subido
 drop database animales;
 create database animales;
 use animales;

@@ -1,3 +1,4 @@
+--No lo habia subido
 insert into insectos (insectoID, nombre, patas, alas, tamano, color, masa) 
 values (1, "hormiga_roja", 6, 0, 10.0, "rojo", 0.1 );
 insert into insectos (insectoID, nombre, patas, alas, tamano, color, masa) 
